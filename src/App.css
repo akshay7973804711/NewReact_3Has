@@ -1,0 +1,58 @@
+body{
+  background-image: radial-gradient(bisque, pink ,lightblue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.container{
+  text-align: center;
+}
+.heading{
+  font-size: 50px;;
+  text-align: center;
+}
+input{
+  width:200px;
+  height: 40px;
+  border: 1px solid lightblue;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+}
+button{
+  width:170px;
+  height:35px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: darkgray;
+  font-weight: bold;
+  font-size: 13px;
+  margin:50px;
+}
+button:hover{
+  background-color:red;
+}
+.conatiner2{
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  width:1200px;
+  height: auto;
+  border: 1px solid black;
+  margin:30px auto;
+  background-color:aquamarine;
+
+
+}
+.conatiner3{
+  width:560px;
+  height:70px;
+  border: 1px solid black;
+  font-size: 15px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 50px;
+ background-color: orange;
+
+}
